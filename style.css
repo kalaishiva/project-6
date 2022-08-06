@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  border-left: 255px solid black;
+  border-right: 255px solid black;
+}
+#navbarMonstera {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Abel";
+  margin: 10px 0;
+  padding: 64px 0;
+}
+#navFirst {
+}
+#navMid {
+  display: flex;
+  flex-direction: row;
+}
+#navEnd {
+  display: flex;
+  flex-direction: row;
+}
+#navMid div h4 {
+  margin: 7px 16px;
+  padding: 6px 12px;
+  display: inline-block;
+
+  font-size: 23px;
+}
+#navEnd div img {
+  display: inline-block;
+  padding: 5px 15px;
+  margin: 10px;
+}
+#midWhole {
+  position: relative;
+  height: 100vh;
+}
+#midWholePart1 {
+}
+#midWholePart11 {
+  font-family: "Abel";
+  width: 60%;
+  display: flex;
+
+  justify-content: space-between;
+}
+#monstera {
+  color: #181113;
+  font-weight: 600;
+  font-size: 111px;
+  text-shadow: 0px 1px, 1px 0px;
+  font-family: "Allerta";
+  margin-top: 22%;
+}
+ul li {
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  width: 57%;
+  margin-left: 9%;
+  list-style-type: square;
+}
+#midWholePart12 {
+  margin: 33px 75px;
+  padding: 56px 0;
+}
+#midWholePart121 {
+  font-family: "Allerta";
+  color: #ffffff;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+
+  padding: 12px 31px;
+  border-radius: 28px;
+}
+#midWholePart122 {
+  margin-left: 21px;
+  margin-top: 7px;
+}
+
+#midWholePart13 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Abel";
+  width: 58%;
+  margin-left: 37px;
+}
+.midWholePart13Parts {
+  display: flex;
+  flex-direction: row;
+}
+.midWholePart13Parts div img {
+}
+
+.midWholePart13Parts div:nth-child(2) {
+  padding: 4px 8px;
+}
+.midWholePart13Parts div h4 {
+  color: black;
+  font-size: 28px;
+  font-weight: 600;
+}
+.midWholePart13Parts .text {
+  font-size: 15px;
+  font-weight: 600;
+}
+#midWhole #imgMain {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  width: 40%;
+  height: 86%;
+}
